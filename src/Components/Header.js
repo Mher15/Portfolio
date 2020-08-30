@@ -58,7 +58,7 @@ export default class Header extends Component {
                     </Switch>
                 </Router> */}
                  
-                       <Router  basename={process.env.PUBLIC_URL}> 
+                       <Router  basename='/Portfolio/'> 
                     <Switch >
                         <Route exact path ="/" component= {Home}/>
                         <Route exact path ="/about" component= {About}/>
