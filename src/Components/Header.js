@@ -48,15 +48,7 @@ export default class Header extends Component {
 
                     </Container>
                 </Navbar>
-                {/* <Router> 
-                    <Switch>
-                        <Route exact path ="/" component= {Home}/>
-                        <Route exact path ="/about" component= {About}/>
-                        <Route exact path ="/work" component= {Work}/>
-                        <Route exact path ="/contacts" component= {Contact}/>
-                        <Route exact path ="/blog" component= {Blog}/>
-                    </Switch>
-                </Router> */}
+             
                  
                        <Router  basename='/Portfolio/'> 
                     <Switch >
