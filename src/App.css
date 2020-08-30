@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.homheader {
+   background: url("../src/Components/image/2.jpg")   no-repeat center center fixed;
+   -webkit-background-size: cover !important;
+   background-size: cover !important;
+}
+.homheaderjumbotron{
+  background-color: transparent !important;
+}
+.our_team{
+  background: url("../src/Components/image/2.jpg")   no-repeat center center fixed;
+  opacity: 0,5 !important;
+  -webkit-background-size: cover !important;
+  background-size: cover !important;
+}
+.cardbg{
+  background-color: #282c346e !important;
+}
+.bggrape{
+  background-color: #6e3a79;
+  width: 60%;
+  height: 3px;
+  float: left;
+}
+.navbarlogo{
+ font-size: 30px;
+ color: #24A2B8;
+}
+.left {
+  display: flex;
+  justify-content: flex-start;
+  width: 90%;
+  margin: 0 auto;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+.right {
+  display: flex;
+  justify-content: flex-end;
+  width: 90%;
+  margin: 0 auto;
+}
+.ourworks {
+  background: url("../src/Components/image/9.jpg")   no-repeat center center fixed;
+  -webkit-background-size: cover !important;
+  background-size: cover !important;
+}
+.navbg {
+  background-color: #04a1b9;
+}
+.ourworksbg {
+  background-color: #0000009a;
+}
+.templates {
+  color: #04a1b9;
+}
+/* .partic{
+  height: 600px;
+} */
