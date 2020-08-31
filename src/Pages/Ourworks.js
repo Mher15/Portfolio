@@ -4,7 +4,6 @@ import { Container, Tab, Nav, Row, Col, CardImg, Media, ListGroup, Card, Item } 
 import Animaci from "./Animaciaa/Animaci";
 import Animaica2 from "./Animacia2/Animaica2";
 import Animaica3 from "./Animacia3/Animaica3";
-import Animation from "./Animaica 4/Animation";
 import Buton from "./Ol Animacia/Button/Buton";
 
 
@@ -178,9 +177,6 @@ export default class Ourworks extends Component {
                                             <Animaci />
                                             <Animaica2 />
                                             <Animaica3 />
-                                        </div>
-                                        <div>
-                                            <Animation />
                                         </div>
                                     </Tab.Pane>
                                     <Tab.Pane eventKey="hover">
