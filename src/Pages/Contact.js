@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import { Container, Form, Button } from 'react-bootstrap'
+import logo from "../Components/image/logo.png"
+
 
 export default class Contact extends Component {
     render() {
@@ -24,6 +26,9 @@ export default class Contact extends Component {
                     </Form.Group>
                     <Button variant="primary"   type="Submit" >Submit</Button>
                 </Form>
+                <div className="bg_logo">
+                    <img src={logo}/>
+                </div>
             </Container>
         )
     }

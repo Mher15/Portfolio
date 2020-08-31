@@ -93,6 +93,15 @@
 .templates {
   color: #04a1b9;
 }
-/* .partic{
-  height: 600px;
-} */
+.logo
+{
+  width: 2.5rem;
+}
+.bg_logo
+{
+  width: 20rem;
+  margin: 0 auto;
+}
+.bg_logo img{
+  width: 100%;
+}

@@ -15,25 +15,29 @@ import About from "../Pages/About";
 import Contact from "../Pages/Contact";
 import Blog from "../Pages/Blog";
 
-
+import logo from "./image/logo.png"
 
 export default class Header extends Component {
     render(){
         return(
             <>
+            <Router>
                 <Navbar collapseOnSelect expand ="lg" bg="dark" variant ="dark" >
                     <Container>
                         <Navbar.Brand href = "/">
-                        <i className="fab fa-battle-net navbarlogo"></i>
+                         <img 
+                            src={logo}
+                            className="logo"
+                         />
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls ="responsive-navbar-nav" />
                         <Navbar.Collapse id ="responsive-navbar-nav">
                                 <Nav className="mr-auto">
-                                    <Nav.Link href ="/">Home</Nav.Link>
-                                    <Nav.Link href ="/about">About ut</Nav.Link>
-                                    <Nav.Link href ="/work">our work</Nav.Link>
-                                    <Nav.Link href ="/contacts">Contacts</Nav.Link>
-                                    <Nav.Link href ="/blog">Blog</Nav.Link>
+                                    <Link to ="/">Home</ Link>
+                                    <Link to ="/about">About ut</ Link>
+                                    <Link to ="/work">our work</ Link>
+                                    <Link to ="/contacts">Contacts</ Link>
+                                    <Link to ="/blog">Blog</ Link>
                                 </Nav>
                                 <Form inline>
                                     <FormControl 
@@ -48,7 +52,7 @@ export default class Header extends Component {
 
                     </Container>
                 </Navbar>
-                <Router>
+                
                     <Switch>
                         <Route exact path ="/" component= {Home}/>
                         <Route exact path ="/about" component= {About}/>
