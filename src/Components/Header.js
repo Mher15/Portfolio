@@ -34,8 +34,8 @@ export default class Header extends Component {
                             <Navbar.Collapse id="responsive-navbar-nav">
                                 <Nav className="mr-auto nav">
                                     <Link className="link" to="/">Home</ Link>
-                                    <Link className="link"to="/about">About ut</ Link>
-                                    <Link className="link"to="/work">our work</ Link>
+                                    <Link className="link"to="/about">About us</ Link>
+                                    <Link className="link"to="/work">Our work</ Link>
                                     <Link className="link"to="/contacts">Contacts</ Link>
                                     <Link className="link"to="/blog">Blog</ Link>
                                 </Nav>
