@@ -24,7 +24,7 @@ export default class Header extends Component {
                 <Router>
                     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" >
                         <Container>
-                            <Navbar.Brand href="/">
+                            <Navbar.Brand href="/Portfolio">
                                 <img
                                     src={logo}
                                     className="logo"
@@ -32,13 +32,12 @@ export default class Header extends Component {
                             </Navbar.Brand>
                             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                             <Navbar.Collapse id="responsive-navbar-nav">
-                                <Nav className="mr-auto">
-                                    <Link to="/Portfolio">Home</ Link>
-                                    <Link to="/">Home</ Link>
-                                    <Link to="/about">About ut</ Link>
-                                    <Link to="/work">our work</ Link>
-                                    <Link to="/contacts">Contacts</ Link>
-                                    <Link to="/blog">Blog</ Link>
+                                <Nav className="mr-auto nav">
+                                    <Link className="link" to="/">Home</ Link>
+                                    <Link className="link"to="/about">About ut</ Link>
+                                    <Link className="link"to="/work">our work</ Link>
+                                    <Link className="link"to="/contacts">Contacts</ Link>
+                                    <Link className="link"to="/blog">Blog</ Link>
                                 </Nav>
                                 <Form inline>
                                     <FormControl
@@ -56,7 +55,6 @@ export default class Header extends Component {
 
                     <Switch>
                         <Route exact path="/" component={Home} />
-                        <Route exact path="/Portfolio" component={Home} />
                         <Route exact path="/about" component={About} />
                         <Route exact path="/work" component={Work} />
                         <Route exact path="/contacts" component={Contact} />

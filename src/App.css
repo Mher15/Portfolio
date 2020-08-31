@@ -105,3 +105,12 @@
 .bg_logo img{
   width: 100%;
 }
+.link{
+  color: #24A2B8;
+  margin-left: 1rem;
+}
+.link:hover
+{
+  text-decoration: none;
+  color: rgb(238, 247, 247);
+}
