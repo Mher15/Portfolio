@@ -33,7 +33,7 @@ export default class Header extends Component {
                             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                             <Navbar.Collapse id="responsive-navbar-nav">
                                 <Nav className="mr-auto nav">
-                                    <Link className="link" exact to="/">Home</ Link>
+                                    <Link className="link" to="/">Home</ Link>
                                     <Link className="link"to="/about">About us</ Link>
                                     <Link className="link"to="/work">Our work</ Link>
                                     <Link className="link"to="/contacts">Contacts</ Link>
@@ -55,10 +55,10 @@ export default class Header extends Component {
 
                     <Switch>
                         <Route exact path="/" component={Home} />
-                        <Route  path="/about" component={About} />
-                        <Route  path="/work" component={Work} />
-                        <Route  path="/contacts" component={Contact} />
-                        <Route  path="/blog" component={Blog} />
+                        <Route exact path="/about" component={About} />
+                        <Route exact path="/work" component={Work} />
+                        <Route exact path="/contacts" component={Contact} />
+                        <Route exact path="/blog" component={Blog} />
                     </Switch>
                 </Router>
             </>
