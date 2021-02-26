@@ -33,7 +33,7 @@ export default class Header extends Component {
                             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                             <Navbar.Collapse id="responsive-navbar-nav">
                                 <Nav className="mr-auto nav">
-                                    <Link className="link" to="/">Home</ Link>
+                                    <Link className="link" exact to="/">Home</ Link>
                                     <Link className="link"to="/about">About us</ Link>
                                     <Link className="link"to="/work">Our work</ Link>
                                     <Link className="link"to="/contacts">Contacts</ Link>
