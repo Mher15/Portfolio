@@ -24,7 +24,7 @@ export default class Header extends Component {
                 <Router>
                     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" >
                         <Container>
-                            <Navbar.Brand href="/Portfolio">
+                            <Navbar.Brand href="/">
                                 <img
                                     src={logo}
                                     className="logo"
