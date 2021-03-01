@@ -17,7 +17,7 @@ import Blog from "../Pages/Blog";
 
 import logo from "./image/logo.png"
 
-export default class Header extends Component {
+export default class Header extends React.Component {
     render() {
         return (
             <>
